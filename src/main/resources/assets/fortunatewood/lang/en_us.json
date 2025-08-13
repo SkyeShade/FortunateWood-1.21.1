@@ -1,0 +1,13 @@
+{
+  "itemGroup.fortunatewood": "Example Mod Tab",
+  "block.fortunatewood.example_block": "Example Block",
+  "item.fortunatewood.example_item": "Example Item",
+
+  "fortunatewood.configuration.title": "FortunateWood Configs",
+  "fortunatewood.configuration.section.fortunatewood.common.toml": "FortunateWood Configs",
+  "fortunatewood.configuration.section.fortunatewood.common.toml.title": "FortunateWood Configs",
+  "fortunatewood.configuration.items": "Item List",
+  "fortunatewood.configuration.logDirtBlock": "Log Dirt Block",
+  "fortunatewood.configuration.magicNumberIntroduction": "Magic Number Text",
+  "fortunatewood.configuration.magicNumber": "Magic Number"
+}

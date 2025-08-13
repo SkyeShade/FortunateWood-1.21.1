@@ -1,6 +1,6 @@
 # Fortunate Wood
 
-**Fortunate Wood** is a [NeoForge](https://neoforged.net/) mod for Minecraft 1.21.1+ that makes **Fortune on axes** work for logs — *but only for naturally generated logs*.  
+**Fortunate Wood** is a [NeoForge](https://neoforged.net/) mod for Minecraft 1.21.1 that makes **Fortune on axes** work for logs — *but only for naturally generated logs*.  
 This means you can get more wood from real trees, but tree farms made from player-placed logs won’t give you extra drops.
 
 ---

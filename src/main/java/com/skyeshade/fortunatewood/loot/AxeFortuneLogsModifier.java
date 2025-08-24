@@ -76,12 +76,12 @@ public class AxeFortuneLogsModifier extends LootModifier {
         var pos = BlockPos.containing(origin);
         boolean marked = PlacedLogsData.get(sLevel).isMarked(pos);
         if (marked) {
-            // Player-placed: skip bonus AND clean up the mark now that it’s broken.
+
             PlacedLogsData.get(sLevel).unmark(pos);
             return generatedLoot;
         }
         //LOG.info("[FW] GLM: pos={} marked={}", pos, marked);
-        if (marked) return generatedLoot; // player-placed -> no bonus
+        if (marked) return generatedLoot;
 
         // Tool checks
         boolean isAxe = tool.is(ItemTags.AXES) || tool.getItem() instanceof net.minecraft.world.item.AxeItem;

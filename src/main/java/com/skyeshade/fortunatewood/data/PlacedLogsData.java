@@ -90,6 +90,6 @@ public class PlacedLogsData extends SavedData {
         return data;
     }
 
-    // ctor
+
     public PlacedLogsData() {}
 }

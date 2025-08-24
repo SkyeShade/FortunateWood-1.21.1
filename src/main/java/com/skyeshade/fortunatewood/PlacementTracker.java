@@ -21,7 +21,7 @@ public class PlacementTracker {
         if (e.getPlacedBlock().is(BlockTags.LOGS)) {
             //LOG.info("[FW] onPlace: {}", e.getPos());
             PlacedLogsData.get(level).mark(e.getPos());
-            // Immediate verify read:
+
             PlacedLogsData.get(level).isMarked(e.getPos());
         }
     }
